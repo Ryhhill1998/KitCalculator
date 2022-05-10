@@ -14,8 +14,7 @@ function calculateTestsPerBottle(testsPerSession) {
   }
 
   return Math.round(tests);
-
-}
+};
 
 function calculateBottles(testsPerSession, daysPerWeek, weeksPerYear) {
 
@@ -24,8 +23,7 @@ function calculateBottles(testsPerSession, daysPerWeek, weeksPerYear) {
   let testsPerYear = daysPerYear * testsPerSession;
 
   return Math.round(testsPerYear / testsPerBottle);
-
-}
+};
 
 $(".calculate").click(function() {
 
@@ -36,4 +34,4 @@ $(".calculate").click(function() {
   let bottles = calculateBottles(tps, dpw, wpy);
 
   $("#result").val(bottles);
-})
+});
