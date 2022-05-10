@@ -32,7 +32,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 295px;
+  top: 290px;
   margin: auto;
 }
 
@@ -51,7 +51,7 @@ h1 {
 .calculator {
   background-image: linear-gradient(to right, #FF2626 , black);
   width: 380px;
-  padding: 50px 30px 30px;
+  padding: 60px 30px 30px;
   border: solid 3px black;
   border-radius: 10%;
 }
