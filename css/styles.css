@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  padding: 10%;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 10%;
+}
+
+.main-body {
+  width: 30%;
+}
+
+.calculator {
+  padding: 20px;
+  border: solid 2px black;
+}
+
+input {
+  width: 70%;
+}
+
+#result {
+  width: 10%;
+}
