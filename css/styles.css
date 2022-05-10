@@ -23,26 +23,41 @@ body {
   padding: 50px 10px;
 }
 
-h1 {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  font-weight: bold;
+.logo-circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: solid 3px black;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 295px;
+  margin: auto;
 }
 
-hr {
-  border: 0;
+.fa-flask {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .calculator {
   background-image: linear-gradient(to right, #FF2626 , black);
-  width: 400px;
-  padding: 30px;
+  width: 380px;
+  padding: 50px 30px 30px;
   border: solid 3px black;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 
 input {
-  width: 80%;
+  width: 85%;
   height: 40px;
   border: solid 2px black;
   padding-left: 10px;
