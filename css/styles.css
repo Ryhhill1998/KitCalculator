@@ -5,35 +5,27 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-  padding-left: 10px;
-}
-
 .navbar-custom {
   background-image: linear-gradient(to right, black, #FF2626);
+  height: 100px;
   border-bottom: solid 2px black;
 }
 
 .navbar-brand {
   font-size: 1.2rem;
+  margin-right: auto;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .main-body {
   text-align: center;
-  padding: 50px 10px;
-}
-
-.logo-circle {
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  border: solid 3px black;
-  background-color: white;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 290px;
-  margin: auto;
+  padding: 200px 10px;
 }
 
 .fa-flask {
@@ -41,22 +33,18 @@ body {
 }
 
 h1 {
-  margin-top: 100px;
-  margin-bottom: 80px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .calculator {
   background-image: linear-gradient(to right, #FF2626 , black);
   width: 380px;
-  padding: 60px 30px 30px;
+  padding: 40px 30px 30px;
   border: solid 3px black;
   border-radius: 10%;
 }
 
-input {
+.input {
   width: 85%;
   height: 40px;
   border: solid 2px black;

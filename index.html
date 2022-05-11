@@ -14,42 +14,35 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <a class="navbar-brand"><i class="fa-solid fa-house"></i></a>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link">SPE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Zoom</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">SP6</a>
-        </li>
-      </ul>
+      <img class="logo" src="images\helena_logo.jpg" alt="helena_logo">
+      <a class="navbar-brand"><h2>KIT CALCULATOR</h2></a>
     </div>
   </nav>
 
-  <div class="container logo-circle"><i class="fa-solid fa-flask fa-3x"></i></div>
+  <!-- <div class="container logo-circle"><i class="fa-solid fa-flask fa-3x"></i></div> -->
 
   <div class="main-body container-fluid">
 
-    <h1>SPE KIT CALCULATOR</h1>
-
-
-
     <div class="calculator container-fluid">
       <form>
-        <input id="tps" type="text" name="testsPerSession" placeholder="Tests per Session" autocomplete="off" autofocus><br><br>
-        <input id="dpw" type="text" name="daysPerWeek" placeholder="Days Running per Week" autocomplete="off"><br><br>
-        <input id="wpy" type="text" name="weeksPerYear" placeholder="Weeks Running per Year" autocomplete="off"><br><br>
+        <select id="method-selection" class="input" name="method-selection" autofocus>
+          <option value="">Method</option>
+          <option value="spe">SPE</option>
+          <option value="zoom">Zoom</option>
+          <option value="hb">Haemoglobin</option>
+        </select>
+        <br><br>
+        <input class="input" id="tps" type="text" name="testsPerSession" placeholder="Tests per Session" autocomplete="off"><br><br>
+        <input class="input" id="dpw" type="text" name="daysPerWeek" placeholder="Days Running per Week" autocomplete="off"><br><br>
+        <input class="input" id="wpy" type="text" name="weeksPerYear" placeholder="Weeks Running per Year" autocomplete="off"><br><br>
       </form>
       <button class="calculate">Go <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
-      <input id="result" type="text" name="result" placeholder="Kits" readonly>
+      <input class="input" id="result" type="text" name="result" placeholder="Kits" readonly>
     </div>
 
 
