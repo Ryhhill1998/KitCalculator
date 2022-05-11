@@ -38,14 +38,14 @@ h1 {
 
 .calculator {
   background-image: linear-gradient(to right, #FF2626 , black);
-  width: 380px;
+  width: 370px;
   padding: 40px 30px 30px;
   border: solid 3px black;
   border-radius: 10%;
 }
 
 .input {
-  width: 85%;
+  width: 88%;
   height: 40px;
   border: solid 2px black;
   padding-left: 10px;
@@ -53,17 +53,17 @@ h1 {
   box-shadow:0 0 15px 4px rgba(0,0,0,0.6);
 }
 
-.calculate {
+.button {
   background-color: #D0C9C0;
   font-weight: bold;
   height: 40px;
   border-radius: 10px;
-  margin-right: 10px;
-  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 42%;
 }
 
 #result {
-  width: 30%;
   text-align: center;
   padding: 0;
   font-weight: bold;
